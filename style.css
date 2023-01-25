@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.pagination a{
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+    border: 2px solid black;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: green;
+    color: white;
+}
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+.column{
+    column-width: 100px;
+    text-align: justify;
+    column-rule: 3px dotted green;
+    c
+}
+h3{
+    color: red;
+    column-span: all;
+    text-align: center;
+}
